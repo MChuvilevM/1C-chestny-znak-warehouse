@@ -14,12 +14,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Java 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
           java-version: '17'
 
       - name: Download and Run BSL Language Server
         run: |
-          curl -fL "https://github.com" -o bsl-ls.jar
+          REPO="1c-syntax/bsl-language-server"
+          VER="0.23.2"
+          FILE="bsl-language-server-${VER}-exec.jar"
+          curl -fL "https://github.com{REPO}/releases/download/v${VER}/${FILE}" -o bsl-ls.jar
           java -jar bsl-ls.jar --analyze --src-dir ./src --reporter console
