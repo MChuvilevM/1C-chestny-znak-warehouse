@@ -13,7 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run BSL Language Server
-        uses: docker://ghcr.io/1c-syntax/bsl-language-server:latest
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
         with:
-          args: -s ./src -r console
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Download and Run BSL Language Server
+        run: |
+          LATEST_URL=$(curl -s https://github.com | grep "browser_download_url.*exec.jar" | cut -d '"' -f 4)
+          curl -L "$LATEST_URL" -o bsl-language-server.jar
+          java -jar bsl-language-server.jar --analyze --src-dir ./src --reporter console
