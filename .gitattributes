@@ -1,1 +1,2 @@
-*.bsl linguist-language=1C Enterprise
+*.bsl linguist-language=1C-Enterprise
+*.bsl linguist-detectable=true
