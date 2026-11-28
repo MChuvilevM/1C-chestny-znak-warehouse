@@ -69,7 +69,7 @@
 ### 4. Парсинг GS1 DataMatrix и запрос к внешнему REST API
 Разбор кода маркировки на `GTIN` и серийный номер, проверка наличия марки на складе и получение метаданных товара по HTTPS в формате JSON:
 
-![Парсинг DataMatrix и REST API](media/04_datamatrix_api.gif)
+![Парсинг DataMatrix и REST API](media/ПроверкаКодаМаркировки_REST_API)
 
 ---
 
@@ -81,7 +81,7 @@
 │   ├── 01_receipt_check.gif                                      # Валидация DataMatrix при поступлении
 │   ├── 02_sales_control.gif                                      # Контроль остатков и вывод марки при реализации
 │   ├── 03_skd_report.gif                                         # Формирование отчёта на СКД
-│   └── 04_datamatrix_api.gif                                     # Проверка кода маркировки и HTTPS REST API
+│   └── ПроверкаКодаМаркировки_REST_API                                    # Проверка кода маркировки и HTTPS REST API
 ├── Release/
 │   └── UchetMarkirovki.cf                                        # Выгрузка конфигурации 1С:Предприятие 8.3
 └── Конфигурация/
