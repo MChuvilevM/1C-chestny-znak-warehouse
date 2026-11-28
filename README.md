@@ -1,9 +1,9 @@
 # Учёт маркированного товара и склада (1С:Предприятие 8.3)
 
-![1C](https://img.shields.io/badge/1С:Предприятие-8.3_BSL-F5C400?style=for-the-badge&logoColor=black)
-![Честный ЗНАК](https://img.shields.io/badge/ИС_МП-Честный_ЗНАК-00A86B?style=for-the-badge&logo=databricks&logoColor=white)
-![GS1 DataMatrix](https://img.shields.io/badge/Маркировка-GS1_DataMatrix-1E3A8A?style=for-the-badge&logo=barcode&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-JSON_%2F_HTTP-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![1C:Enterprise 8.3](https://img.shields.io/badge/1С:Предприятие-8.3_BSL-FFCC00?style=plastic&labelColor=E30613&logoColor=white)
+![Честный ЗНАК](https://img.shields.io/badge/ИС_МП-Честный_ЗНАК-00A86B?style=plastic&logo=databricks&logoColor=white)
+![GS1 DataMatrix](https://img.shields.io/badge/Маркировка-GS1_DataMatrix-1E3A8A?style=plastic&logo=barcode&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-JSON_%2F_HTTP-009688?style=plastic&logo=fastapi&logoColor=white)
 
 Конфигурация на платформе **«1С:Предприятие 8.3»** (управляемое приложение, тонкий клиент, интерфейс «Такси»), моделирующая контур складского учёта, работу с кодами маркировки **GS1 DataMatrix (ИС МП «Честный ЗНАК»)** и интеграцию с внешними сервисами по **REST API**.
 
