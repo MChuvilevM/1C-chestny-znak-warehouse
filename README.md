@@ -1,9 +1,9 @@
 # Учёт маркированного товара и склада (1С:Предприятие 8.3)
 
 ![Platform](https://shields.io)
-![Language](https://img.shields.io/badge/BSL-1C_Script-2B579A?style=flat-square)
-![UI](https://img.shields.io/badge/Интерфейс-Такси-4A5568?style=flat-square)
-![Domain](https://img.shields.io/badge/ИС_МП-Честный_ЗНАК_(DataMatrix)-00A86B?style=flat-square)
+![Language](https://shields.io)
+![UI](https://shields.io)
+![Domain](https://shields.io)
 ![Integration](https://shields.io)
 
 Конфигурация на платформе **«1С:Предприятие 8.3»** (управляемое приложение, тонкий клиент, интерфейс «Такси»), моделирующая контур складского учёта, работу с кодами маркировки **GS1 DataMatrix (ИС МП «Честный ЗНАК»)** и интеграцию с внешними сервисами по **REST API**.
